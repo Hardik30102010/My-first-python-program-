@@ -5,8 +5,8 @@ name = str(input("enter the name of person: "))
 
 age = int(input(" enter the age of person: "))
 
-if( age >= 18 ):
-print(name, " is allowed to vote")
+if(age >= 18):
+    print(name, " is allowed to vote")
 
 else:
-print(name, " is not allowed to vote")
+    print(name, " is not allowed to vote")
